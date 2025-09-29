@@ -12,5 +12,8 @@ logs/
 lib/
 *.so
 backups_models/*
-lib64/*
+lib64/python*
 bin/*
+path/to/*
+include/*
+/lib64/*

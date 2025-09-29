@@ -4,7 +4,6 @@ pymongo
 pandas
 scikit-learn
 joblib
-jupyter
 matplotlib
 dotenv
-tensorflow
+tensorflow==2.15.0

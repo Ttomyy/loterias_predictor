@@ -20,7 +20,8 @@ WORKDIR /app
 # ==========================
 COPY requirements.txt .
 COPY run_all_Siniteraccion.sh .
-COPY src/ ./src/   # Si tu código está en la carpeta src
+COPY src/ ./src/   
+# Si tu código está en la carpeta src
 # Ajusta según tu estructura de proyecto
 
 # ==========================

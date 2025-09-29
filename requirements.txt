@@ -7,3 +7,4 @@ joblib
 jupyter
 matplotlib
 dotenv
+tensorflow

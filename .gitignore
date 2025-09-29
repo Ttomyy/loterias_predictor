@@ -1,0 +1,22 @@
+lib/
+models/*.pkl
+*.so
+# secrets and environment
+.env
+*.env
+# python venv
+venv/
+# data, logs, models (opcional)
+data/
+models/
+logs/
+lib/
+models/*.pkl
+backups_models/*
+lib64/*
+bin/*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+

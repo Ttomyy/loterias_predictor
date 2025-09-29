@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+pymongo
+pandas
+scikit-learn
+joblib
+jupyter
+matplotlib
+dotenv

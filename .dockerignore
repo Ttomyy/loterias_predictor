@@ -1,0 +1,16 @@
+.git
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.env
+venv/
+.venv/
+*.ipynb_checkpoints
+logs/
+lib/
+*.so
+backups_models/*
+lib64/*
+bin/*

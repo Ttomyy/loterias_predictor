@@ -28,7 +28,7 @@ esac
 echo "Juego seleccionado: $JUEGO (WHICH=$WHICH)"
 export JUEGO
 export PREFIX="$JUEGO"
-PYTHON="/home/tomy/primitiva_predictor/bin/python"
+PYTHON="python"
 
 # -------------------------
 # Preparar ficheros

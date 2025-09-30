@@ -1,0 +1,15 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copiar solo dependencias
+COPY requirements.txt .
+
+# Instalar dependencias
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Dar permisos de ejecución (siempre estará montado por volumen en /app)
+RUN apt-get update && apt-get install -y bash && rm -rf /var/lib/apt/lists/*
+
+ENTRYPOINT ["bash", "run_all_siniter.sh"]
+CMD ["bonoloto"]

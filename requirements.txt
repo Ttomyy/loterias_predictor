@@ -6,4 +6,4 @@ scikit-learn
 joblib
 matplotlib
 dotenv
-tensorflow==2.15.0
+tensorflow
